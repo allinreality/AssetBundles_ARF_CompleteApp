@@ -69,6 +69,7 @@ public class LoadModels : MonoBehaviour
             LoadingCanvas.SetActive(false);
             MainCanvas.SetActive(true);
             Debug.Log("Success!!!");
+            assetBundle.Unload(false);
         }
         else
         {
